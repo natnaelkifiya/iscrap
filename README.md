@@ -43,7 +43,8 @@ cd your-repository
 
 ```bash
 pip install -r requirements.txt
- ### Run the scraper
+
+### Run the scraper
 ```bash
 python eTradeMain.py
 
