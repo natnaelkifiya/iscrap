@@ -1,0 +1,1449 @@
+2024-10-11 20:57:49,498 - INFO - iScrap initiated...
+2024-10-11 20:57:49,506 - INFO - Processing 5 TIN numbers...
+2024-10-11 20:57:49,509 - INFO - Loader initiated with TIN: 00000000
+2024-10-11 20:57:49,510 - INFO - Loader initiated with TIN: 00000001
+2024-10-11 20:57:49,510 - INFO - Loader initiated with TIN: 00000002
+2024-10-11 20:57:49,516 - INFO - Loader initiated with TIN: 00000003
+2024-10-11 20:57:49,518 - INFO - Loader initiated with TIN: 00000004
+2024-10-11 20:57:49,931 - INFO - ====== WebDriver manager ======
+2024-10-11 20:57:49,931 - INFO - ====== WebDriver manager ======
+2024-10-11 20:57:49,942 - INFO - ====== WebDriver manager ======
+2024-10-11 20:57:49,998 - INFO - ====== WebDriver manager ======
+2024-10-11 20:57:50,067 - INFO - ====== WebDriver manager ======
+2024-10-11 20:57:50,348 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,361 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,388 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,404 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,466 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,875 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,875 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,876 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,877 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:50,897 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:57:51,289 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:57:51,289 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:57:51,289 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:57:51,290 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:57:51,290 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:57:51,293 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:57:51,341 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:57:51,341 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:57:51,356 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:57:51,357 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:57:55,097 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000004
+2024-10-11 20:57:55,359 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000003
+2024-10-11 20:57:56,108 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000002
+2024-10-11 20:57:56,718 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000001
+2024-10-11 20:58:00,445 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000000
+2024-10-11 20:58:04,731 - INFO - Button clicked successfully.
+2024-10-11 20:58:04,864 - INFO - Button clicked successfully.
+2024-10-11 20:58:05,263 - INFO - Button clicked successfully.
+2024-10-11 20:58:05,264 - INFO - Button clicked successfully.
+2024-10-11 20:58:11,584 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:11,800 - INFO - Chrome driver closed.
+2024-10-11 20:58:11,870 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:12,056 - INFO - Chrome driver closed.
+2024-10-11 20:58:12,197 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:12,303 - INFO - Chrome driver closed.
+2024-10-11 20:58:12,360 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:12,461 - INFO - Chrome driver closed.
+2024-10-11 20:58:17,321 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001015ced08 chromedriver + 4996360
+1   chromedriver                        0x00000001015c65ca chromedriver + 4961738
+2   chromedriver                        0x0000000101169d10 chromedriver + 388368
+3   chromedriver                        0x00000001011b630f chromedriver + 701199
+4   chromedriver                        0x00000001011b63f1 chromedriver + 701425
+5   chromedriver                        0x00000001011fb464 chromedriver + 984164
+6   chromedriver                        0x00000001011da9dd chromedriver + 850397
+7   chromedriver                        0x00000001011f8a00 chromedriver + 973312
+8   chromedriver                        0x00000001011da753 chromedriver + 849747
+9   chromedriver                        0x00000001011a9635 chromedriver + 648757
+10  chromedriver                        0x00000001011a9e5e chromedriver + 650846
+11  chromedriver                        0x0000000101594ff0 chromedriver + 4759536
+12  chromedriver                        0x0000000101599f08 chromedriver + 4779784
+13  chromedriver                        0x000000010159a5d5 chromedriver + 4781525
+14  chromedriver                        0x0000000101577a99 chromedriver + 4639385
+15  chromedriver                        0x000000010159a8c9 chromedriver + 4782281
+16  chromedriver                        0x0000000101569034 chromedriver + 4579380
+17  chromedriver                        0x00000001015b69f8 chromedriver + 4897272
+18  chromedriver                        0x00000001015b6bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001015c61ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 20:58:17,322 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001015ced08 chromedriver + 4996360
+1   chromedriver                        0x00000001015c65ca chromedriver + 4961738
+2   chromedriver                        0x0000000101169d10 chromedriver + 388368
+3   chromedriver                        0x00000001011b630f chromedriver + 701199
+4   chromedriver                        0x00000001011b63f1 chromedriver + 701425
+5   chromedriver                        0x00000001011fb464 chromedriver + 984164
+6   chromedriver                        0x00000001011da9dd chromedriver + 850397
+7   chromedriver                        0x00000001011f8a00 chromedriver + 973312
+8   chromedriver                        0x00000001011da753 chromedriver + 849747
+9   chromedriver                        0x00000001011a9635 chromedriver + 648757
+10  chromedriver                        0x00000001011a9e5e chromedriver + 650846
+11  chromedriver                        0x0000000101594ff0 chromedriver + 4759536
+12  chromedriver                        0x0000000101599f08 chromedriver + 4779784
+13  chromedriver                        0x000000010159a5d5 chromedriver + 4781525
+14  chromedriver                        0x0000000101577a99 chromedriver + 4639385
+15  chromedriver                        0x000000010159a8c9 chromedriver + 4782281
+16  chromedriver                        0x0000000101569034 chromedriver + 4579380
+17  chromedriver                        0x00000001015b69f8 chromedriver + 4897272
+18  chromedriver                        0x00000001015b6bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001015c61ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 20:58:17,423 - INFO - Chrome driver closed.
+2024-10-11 20:58:17,425 - INFO - Processing 5 TIN numbers...
+2024-10-11 20:58:17,426 - INFO - Loader initiated with TIN: 00000005
+2024-10-11 20:58:17,426 - INFO - Loader initiated with TIN: 00000006
+2024-10-11 20:58:17,426 - INFO - Loader initiated with TIN: 00000007
+2024-10-11 20:58:17,427 - INFO - Loader initiated with TIN: 00000008
+2024-10-11 20:58:17,428 - INFO - Loader initiated with TIN: 00000009
+2024-10-11 20:58:18,275 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:18,316 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:18,334 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:18,334 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:18,368 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:18,644 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:18,743 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:18,746 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:18,792 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:18,836 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,132 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,133 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,149 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,158 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,249 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:19,527 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:19,528 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:19,543 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:19,544 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:19,604 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:19,606 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:19,606 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:19,607 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:19,747 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:19,748 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:24,173 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000005
+2024-10-11 20:58:24,481 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000009
+2024-10-11 20:58:24,586 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000006
+2024-10-11 20:58:25,379 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000008
+2024-10-11 20:58:28,298 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000007
+2024-10-11 20:58:35,172 - INFO - Button clicked successfully.
+2024-10-11 20:58:38,047 - INFO - Button clicked successfully.
+2024-10-11 20:58:39,388 - INFO - Button clicked successfully.
+2024-10-11 20:58:40,123 - INFO - Button clicked successfully.
+2024-10-11 20:58:40,124 - INFO - Button clicked successfully.
+2024-10-11 20:58:41,731 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:41,889 - INFO - Chrome driver closed.
+2024-10-11 20:58:44,097 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:44,268 - INFO - Chrome driver closed.
+2024-10-11 20:58:46,244 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:46,589 - INFO - Chrome driver closed.
+2024-10-11 20:58:47,760 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:47,822 - INFO - Data successfully logged to JSON.
+2024-10-11 20:58:48,112 - INFO - Chrome driver closed.
+2024-10-11 20:58:48,136 - INFO - Chrome driver closed.
+2024-10-11 20:58:48,138 - INFO - Processing 5 TIN numbers...
+2024-10-11 20:58:48,143 - INFO - Loader initiated with TIN: 00000010
+2024-10-11 20:58:48,146 - INFO - Loader initiated with TIN: 00000011
+2024-10-11 20:58:48,146 - INFO - Loader initiated with TIN: 00000012
+2024-10-11 20:58:48,147 - INFO - Loader initiated with TIN: 00000013
+2024-10-11 20:58:48,150 - INFO - Loader initiated with TIN: 00000014
+2024-10-11 20:58:48,468 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:48,556 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:48,596 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:48,640 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:48,654 - INFO - ====== WebDriver manager ======
+2024-10-11 20:58:49,259 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,298 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,313 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,316 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,318 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,844 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,849 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,855 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,856 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:49,866 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:58:50,246 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:50,249 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:50,251 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:50,251 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:50,253 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:50,254 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:50,255 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:50,258 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:50,273 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:58:50,273 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:58:54,341 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000011
+2024-10-11 20:58:54,895 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000010
+2024-10-11 20:58:55,257 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000014
+2024-10-11 20:58:55,386 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000012
+2024-10-11 20:58:59,828 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000013
+2024-10-11 20:59:04,300 - INFO - Button clicked successfully.
+2024-10-11 20:59:04,301 - INFO - Button clicked successfully.
+2024-10-11 20:59:04,552 - INFO - Button clicked successfully.
+2024-10-11 20:59:04,802 - INFO - Button clicked successfully.
+2024-10-11 20:59:06,808 - INFO - Button clicked successfully.
+2024-10-11 20:59:11,228 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:11,408 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:11,664 - INFO - Chrome driver closed.
+2024-10-11 20:59:11,665 - INFO - Chrome driver closed.
+2024-10-11 20:59:11,808 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:12,045 - INFO - Chrome driver closed.
+2024-10-11 20:59:12,212 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:12,381 - INFO - Chrome driver closed.
+2024-10-11 20:59:13,227 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:13,332 - INFO - Chrome driver closed.
+2024-10-11 20:59:13,334 - INFO - Processing 5 TIN numbers...
+2024-10-11 20:59:13,334 - INFO - Loader initiated with TIN: 00000015
+2024-10-11 20:59:13,334 - INFO - Loader initiated with TIN: 00000016
+2024-10-11 20:59:13,335 - INFO - Loader initiated with TIN: 00000017
+2024-10-11 20:59:13,337 - INFO - Loader initiated with TIN: 00000018
+2024-10-11 20:59:13,337 - INFO - Loader initiated with TIN: 00000019
+2024-10-11 20:59:13,623 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:13,631 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:13,634 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:13,635 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:13,650 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:14,044 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,047 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,069 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,069 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,079 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,712 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,713 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,714 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,718 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:14,720 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:15,122 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:15,124 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:15,125 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:15,125 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:15,128 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:15,132 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:15,134 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:15,135 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:15,135 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:15,148 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:20,751 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000017
+2024-10-11 20:59:20,818 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000018
+2024-10-11 20:59:20,832 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000016
+2024-10-11 20:59:21,106 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000015
+2024-10-11 20:59:25,752 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000019
+2024-10-11 20:59:30,939 - INFO - Button clicked successfully.
+2024-10-11 20:59:31,270 - INFO - Button clicked successfully.
+2024-10-11 20:59:31,917 - INFO - Button clicked successfully.
+2024-10-11 20:59:32,228 - INFO - Button clicked successfully.
+2024-10-11 20:59:33,840 - INFO - Button clicked successfully.
+2024-10-11 20:59:37,618 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:37,827 - INFO - Chrome driver closed.
+2024-10-11 20:59:38,013 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:38,162 - INFO - Chrome driver closed.
+2024-10-11 20:59:38,617 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:38,801 - INFO - Chrome driver closed.
+2024-10-11 20:59:38,891 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:39,001 - INFO - Chrome driver closed.
+2024-10-11 20:59:39,912 - INFO - Data successfully logged to JSON.
+2024-10-11 20:59:40,009 - INFO - Chrome driver closed.
+2024-10-11 20:59:40,011 - INFO - Processing 5 TIN numbers...
+2024-10-11 20:59:40,011 - INFO - Loader initiated with TIN: 00000020
+2024-10-11 20:59:40,012 - INFO - Loader initiated with TIN: 00000021
+2024-10-11 20:59:40,012 - INFO - Loader initiated with TIN: 00000022
+2024-10-11 20:59:40,013 - INFO - Loader initiated with TIN: 00000023
+2024-10-11 20:59:40,013 - INFO - Loader initiated with TIN: 00000024
+2024-10-11 20:59:40,484 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:40,485 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:40,498 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:40,576 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:40,584 - INFO - ====== WebDriver manager ======
+2024-10-11 20:59:40,922 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:40,948 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:40,954 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:40,985 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,013 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,388 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,389 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,397 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,528 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,628 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 20:59:41,853 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:41,856 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:41,857 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:41,857 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:41,894 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:41,895 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:42,062 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:42,063 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:42,075 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 20:59:42,076 - INFO - Chrome driver initialized with headless options.
+2024-10-11 20:59:45,993 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000023
+2024-10-11 20:59:46,859 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000021
+2024-10-11 20:59:46,864 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000022
+2024-10-11 20:59:47,290 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000020
+2024-10-11 20:59:50,943 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000024
+2024-10-11 20:59:55,742 - INFO - Button clicked successfully.
+2024-10-11 20:59:55,976 - INFO - Button clicked successfully.
+2024-10-11 20:59:56,221 - INFO - Button clicked successfully.
+2024-10-11 20:59:58,485 - INFO - Button clicked successfully.
+2024-10-11 21:00:02,210 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:02,445 - INFO - Chrome driver closed.
+2024-10-11 21:00:02,633 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:02,800 - INFO - Chrome driver closed.
+2024-10-11 21:00:02,882 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:02,986 - INFO - Chrome driver closed.
+2024-10-11 21:00:03,344 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102800d08 chromedriver + 4996360
+1   chromedriver                        0x00000001027f85ca chromedriver + 4961738
+2   chromedriver                        0x000000010239bd10 chromedriver + 388368
+3   chromedriver                        0x00000001023e830f chromedriver + 701199
+4   chromedriver                        0x00000001023e83f1 chromedriver + 701425
+5   chromedriver                        0x000000010242d464 chromedriver + 984164
+6   chromedriver                        0x000000010240c9dd chromedriver + 850397
+7   chromedriver                        0x000000010242aa00 chromedriver + 973312
+8   chromedriver                        0x000000010240c753 chromedriver + 849747
+9   chromedriver                        0x00000001023db635 chromedriver + 648757
+10  chromedriver                        0x00000001023dbe5e chromedriver + 650846
+11  chromedriver                        0x00000001027c6ff0 chromedriver + 4759536
+12  chromedriver                        0x00000001027cbf08 chromedriver + 4779784
+13  chromedriver                        0x00000001027cc5d5 chromedriver + 4781525
+14  chromedriver                        0x00000001027a9a99 chromedriver + 4639385
+15  chromedriver                        0x00000001027cc8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010279b034 chromedriver + 4579380
+17  chromedriver                        0x00000001027e89f8 chromedriver + 4897272
+18  chromedriver                        0x00000001027e8bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001027f81ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:03,345 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000102800d08 chromedriver + 4996360
+1   chromedriver                        0x00000001027f85ca chromedriver + 4961738
+2   chromedriver                        0x000000010239bd10 chromedriver + 388368
+3   chromedriver                        0x00000001023e830f chromedriver + 701199
+4   chromedriver                        0x00000001023e83f1 chromedriver + 701425
+5   chromedriver                        0x000000010242d464 chromedriver + 984164
+6   chromedriver                        0x000000010240c9dd chromedriver + 850397
+7   chromedriver                        0x000000010242aa00 chromedriver + 973312
+8   chromedriver                        0x000000010240c753 chromedriver + 849747
+9   chromedriver                        0x00000001023db635 chromedriver + 648757
+10  chromedriver                        0x00000001023dbe5e chromedriver + 650846
+11  chromedriver                        0x00000001027c6ff0 chromedriver + 4759536
+12  chromedriver                        0x00000001027cbf08 chromedriver + 4779784
+13  chromedriver                        0x00000001027cc5d5 chromedriver + 4781525
+14  chromedriver                        0x00000001027a9a99 chromedriver + 4639385
+15  chromedriver                        0x00000001027cc8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010279b034 chromedriver + 4579380
+17  chromedriver                        0x00000001027e89f8 chromedriver + 4897272
+18  chromedriver                        0x00000001027e8bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001027f81ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:03,454 - INFO - Chrome driver closed.
+2024-10-11 21:00:04,597 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:04,705 - INFO - Chrome driver closed.
+2024-10-11 21:00:04,706 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:00:04,706 - INFO - Loader initiated with TIN: 00000025
+2024-10-11 21:00:04,707 - INFO - Loader initiated with TIN: 00000026
+2024-10-11 21:00:04,708 - INFO - Loader initiated with TIN: 00000027
+2024-10-11 21:00:04,709 - INFO - Loader initiated with TIN: 00000028
+2024-10-11 21:00:04,709 - INFO - Loader initiated with TIN: 00000029
+2024-10-11 21:00:04,986 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:05,005 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:05,014 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:05,016 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:05,036 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:05,432 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,440 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,442 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,449 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,452 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,957 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,958 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,958 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,975 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:05,977 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:06,375 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:06,375 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:06,377 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:06,378 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:06,378 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:06,379 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:06,414 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:06,414 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:06,451 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:06,452 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:10,921 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000026
+2024-10-11 21:00:10,932 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000025
+2024-10-11 21:00:11,200 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000028
+2024-10-11 21:00:12,635 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000027
+2024-10-11 21:00:16,147 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000029
+2024-10-11 21:00:20,770 - INFO - Button clicked successfully.
+2024-10-11 21:00:20,981 - INFO - Button clicked successfully.
+2024-10-11 21:00:21,188 - INFO - Button clicked successfully.
+2024-10-11 21:00:22,120 - INFO - Button clicked successfully.
+2024-10-11 21:00:27,402 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:27,598 - INFO - Chrome driver closed.
+2024-10-11 21:00:27,919 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:28,042 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:28,143 - INFO - Chrome driver closed.
+2024-10-11 21:00:28,206 - INFO - Chrome driver closed.
+2024-10-11 21:00:28,695 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:28,801 - INFO - Chrome driver closed.
+2024-10-11 21:00:33,264 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010e867d08 chromedriver + 4996360
+1   chromedriver                        0x000000010e85f5ca chromedriver + 4961738
+2   chromedriver                        0x000000010e402d10 chromedriver + 388368
+3   chromedriver                        0x000000010e44f30f chromedriver + 701199
+4   chromedriver                        0x000000010e44f3f1 chromedriver + 701425
+5   chromedriver                        0x000000010e494464 chromedriver + 984164
+6   chromedriver                        0x000000010e4739dd chromedriver + 850397
+7   chromedriver                        0x000000010e491a00 chromedriver + 973312
+8   chromedriver                        0x000000010e473753 chromedriver + 849747
+9   chromedriver                        0x000000010e442635 chromedriver + 648757
+10  chromedriver                        0x000000010e442e5e chromedriver + 650846
+11  chromedriver                        0x000000010e82dff0 chromedriver + 4759536
+12  chromedriver                        0x000000010e832f08 chromedriver + 4779784
+13  chromedriver                        0x000000010e8335d5 chromedriver + 4781525
+14  chromedriver                        0x000000010e810a99 chromedriver + 4639385
+15  chromedriver                        0x000000010e8338c9 chromedriver + 4782281
+16  chromedriver                        0x000000010e802034 chromedriver + 4579380
+17  chromedriver                        0x000000010e84f9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010e84fbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010e85f1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:33,265 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010e867d08 chromedriver + 4996360
+1   chromedriver                        0x000000010e85f5ca chromedriver + 4961738
+2   chromedriver                        0x000000010e402d10 chromedriver + 388368
+3   chromedriver                        0x000000010e44f30f chromedriver + 701199
+4   chromedriver                        0x000000010e44f3f1 chromedriver + 701425
+5   chromedriver                        0x000000010e494464 chromedriver + 984164
+6   chromedriver                        0x000000010e4739dd chromedriver + 850397
+7   chromedriver                        0x000000010e491a00 chromedriver + 973312
+8   chromedriver                        0x000000010e473753 chromedriver + 849747
+9   chromedriver                        0x000000010e442635 chromedriver + 648757
+10  chromedriver                        0x000000010e442e5e chromedriver + 650846
+11  chromedriver                        0x000000010e82dff0 chromedriver + 4759536
+12  chromedriver                        0x000000010e832f08 chromedriver + 4779784
+13  chromedriver                        0x000000010e8335d5 chromedriver + 4781525
+14  chromedriver                        0x000000010e810a99 chromedriver + 4639385
+15  chromedriver                        0x000000010e8338c9 chromedriver + 4782281
+16  chromedriver                        0x000000010e802034 chromedriver + 4579380
+17  chromedriver                        0x000000010e84f9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010e84fbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010e85f1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:33,366 - INFO - Chrome driver closed.
+2024-10-11 21:00:33,369 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:00:33,369 - INFO - Loader initiated with TIN: 00000030
+2024-10-11 21:00:33,369 - INFO - Loader initiated with TIN: 00000031
+2024-10-11 21:00:33,370 - INFO - Loader initiated with TIN: 00000032
+2024-10-11 21:00:33,373 - INFO - Loader initiated with TIN: 00000033
+2024-10-11 21:00:33,375 - INFO - Loader initiated with TIN: 00000034
+2024-10-11 21:00:33,620 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:33,652 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:33,653 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:33,659 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:33,672 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:34,061 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,063 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,065 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,070 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,080 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,453 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,464 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,464 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,469 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,478 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:34,876 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:34,878 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:34,880 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:34,881 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:34,882 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:34,882 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:34,884 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:00:34,884 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:34,884 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:34,891 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:00:39,493 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000032
+2024-10-11 21:00:39,691 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000031
+2024-10-11 21:00:39,699 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000033
+2024-10-11 21:00:39,800 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000030
+2024-10-11 21:00:42,407 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000034
+2024-10-11 21:00:48,880 - INFO - Button clicked successfully.
+2024-10-11 21:00:50,124 - INFO - Button clicked successfully.
+2024-10-11 21:00:50,501 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010e4c7d08 chromedriver + 4996360
+1   chromedriver                        0x000000010e4bf5ca chromedriver + 4961738
+2   chromedriver                        0x000000010e062d10 chromedriver + 388368
+3   chromedriver                        0x000000010e0af30f chromedriver + 701199
+4   chromedriver                        0x000000010e0af3f1 chromedriver + 701425
+5   chromedriver                        0x000000010e0f4464 chromedriver + 984164
+6   chromedriver                        0x000000010e0d39dd chromedriver + 850397
+7   chromedriver                        0x000000010e0f1a00 chromedriver + 973312
+8   chromedriver                        0x000000010e0d3753 chromedriver + 849747
+9   chromedriver                        0x000000010e0a2635 chromedriver + 648757
+10  chromedriver                        0x000000010e0a2e5e chromedriver + 650846
+11  chromedriver                        0x000000010e48dff0 chromedriver + 4759536
+12  chromedriver                        0x000000010e492f08 chromedriver + 4779784
+13  chromedriver                        0x000000010e4935d5 chromedriver + 4781525
+14  chromedriver                        0x000000010e470a99 chromedriver + 4639385
+15  chromedriver                        0x000000010e4938c9 chromedriver + 4782281
+16  chromedriver                        0x000000010e462034 chromedriver + 4579380
+17  chromedriver                        0x000000010e4af9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010e4afbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010e4bf1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:50,501 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010e4c7d08 chromedriver + 4996360
+1   chromedriver                        0x000000010e4bf5ca chromedriver + 4961738
+2   chromedriver                        0x000000010e062d10 chromedriver + 388368
+3   chromedriver                        0x000000010e0af30f chromedriver + 701199
+4   chromedriver                        0x000000010e0af3f1 chromedriver + 701425
+5   chromedriver                        0x000000010e0f4464 chromedriver + 984164
+6   chromedriver                        0x000000010e0d39dd chromedriver + 850397
+7   chromedriver                        0x000000010e0f1a00 chromedriver + 973312
+8   chromedriver                        0x000000010e0d3753 chromedriver + 849747
+9   chromedriver                        0x000000010e0a2635 chromedriver + 648757
+10  chromedriver                        0x000000010e0a2e5e chromedriver + 650846
+11  chromedriver                        0x000000010e48dff0 chromedriver + 4759536
+12  chromedriver                        0x000000010e492f08 chromedriver + 4779784
+13  chromedriver                        0x000000010e4935d5 chromedriver + 4781525
+14  chromedriver                        0x000000010e470a99 chromedriver + 4639385
+15  chromedriver                        0x000000010e4938c9 chromedriver + 4782281
+16  chromedriver                        0x000000010e462034 chromedriver + 4579380
+17  chromedriver                        0x000000010e4af9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010e4afbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010e4bf1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:50,676 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010aec5d08 chromedriver + 4996360
+1   chromedriver                        0x000000010aebd5ca chromedriver + 4961738
+2   chromedriver                        0x000000010aa60d10 chromedriver + 388368
+3   chromedriver                        0x000000010aaad30f chromedriver + 701199
+4   chromedriver                        0x000000010aaad3f1 chromedriver + 701425
+5   chromedriver                        0x000000010aaf2464 chromedriver + 984164
+6   chromedriver                        0x000000010aad19dd chromedriver + 850397
+7   chromedriver                        0x000000010aaefa00 chromedriver + 973312
+8   chromedriver                        0x000000010aad1753 chromedriver + 849747
+9   chromedriver                        0x000000010aaa0635 chromedriver + 648757
+10  chromedriver                        0x000000010aaa0e5e chromedriver + 650846
+11  chromedriver                        0x000000010ae8bff0 chromedriver + 4759536
+12  chromedriver                        0x000000010ae90f08 chromedriver + 4779784
+13  chromedriver                        0x000000010ae915d5 chromedriver + 4781525
+14  chromedriver                        0x000000010ae6ea99 chromedriver + 4639385
+15  chromedriver                        0x000000010ae918c9 chromedriver + 4782281
+16  chromedriver                        0x000000010ae60034 chromedriver + 4579380
+17  chromedriver                        0x000000010aead9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010aeadbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010aebd1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:50,676 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010aec5d08 chromedriver + 4996360
+1   chromedriver                        0x000000010aebd5ca chromedriver + 4961738
+2   chromedriver                        0x000000010aa60d10 chromedriver + 388368
+3   chromedriver                        0x000000010aaad30f chromedriver + 701199
+4   chromedriver                        0x000000010aaad3f1 chromedriver + 701425
+5   chromedriver                        0x000000010aaf2464 chromedriver + 984164
+6   chromedriver                        0x000000010aad19dd chromedriver + 850397
+7   chromedriver                        0x000000010aaefa00 chromedriver + 973312
+8   chromedriver                        0x000000010aad1753 chromedriver + 849747
+9   chromedriver                        0x000000010aaa0635 chromedriver + 648757
+10  chromedriver                        0x000000010aaa0e5e chromedriver + 650846
+11  chromedriver                        0x000000010ae8bff0 chromedriver + 4759536
+12  chromedriver                        0x000000010ae90f08 chromedriver + 4779784
+13  chromedriver                        0x000000010ae915d5 chromedriver + 4781525
+14  chromedriver                        0x000000010ae6ea99 chromedriver + 4639385
+15  chromedriver                        0x000000010ae918c9 chromedriver + 4782281
+16  chromedriver                        0x000000010ae60034 chromedriver + 4579380
+17  chromedriver                        0x000000010aead9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010aeadbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010aebd1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:50,684 - INFO - Chrome driver closed.
+2024-10-11 21:00:50,857 - INFO - Chrome driver closed.
+2024-10-11 21:00:54,789 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:54,894 - INFO - Chrome driver closed.
+2024-10-11 21:00:56,109 - INFO - Data successfully logged to JSON.
+2024-10-11 21:00:56,251 - INFO - Chrome driver closed.
+2024-10-11 21:00:58,740 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001056f1d08 chromedriver + 4996360
+1   chromedriver                        0x00000001056e95ca chromedriver + 4961738
+2   chromedriver                        0x000000010528cd10 chromedriver + 388368
+3   chromedriver                        0x00000001052d930f chromedriver + 701199
+4   chromedriver                        0x00000001052d93f1 chromedriver + 701425
+5   chromedriver                        0x000000010531e464 chromedriver + 984164
+6   chromedriver                        0x00000001052fd9dd chromedriver + 850397
+7   chromedriver                        0x000000010531ba00 chromedriver + 973312
+8   chromedriver                        0x00000001052fd753 chromedriver + 849747
+9   chromedriver                        0x00000001052cc635 chromedriver + 648757
+10  chromedriver                        0x00000001052cce5e chromedriver + 650846
+11  chromedriver                        0x00000001056b7ff0 chromedriver + 4759536
+12  chromedriver                        0x00000001056bcf08 chromedriver + 4779784
+13  chromedriver                        0x00000001056bd5d5 chromedriver + 4781525
+14  chromedriver                        0x000000010569aa99 chromedriver + 4639385
+15  chromedriver                        0x00000001056bd8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010568c034 chromedriver + 4579380
+17  chromedriver                        0x00000001056d99f8 chromedriver + 4897272
+18  chromedriver                        0x00000001056d9bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001056e91ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:58,740 - ERROR - Error occurred while loading page: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001056f1d08 chromedriver + 4996360
+1   chromedriver                        0x00000001056e95ca chromedriver + 4961738
+2   chromedriver                        0x000000010528cd10 chromedriver + 388368
+3   chromedriver                        0x00000001052d930f chromedriver + 701199
+4   chromedriver                        0x00000001052d93f1 chromedriver + 701425
+5   chromedriver                        0x000000010531e464 chromedriver + 984164
+6   chromedriver                        0x00000001052fd9dd chromedriver + 850397
+7   chromedriver                        0x000000010531ba00 chromedriver + 973312
+8   chromedriver                        0x00000001052fd753 chromedriver + 849747
+9   chromedriver                        0x00000001052cc635 chromedriver + 648757
+10  chromedriver                        0x00000001052cce5e chromedriver + 650846
+11  chromedriver                        0x00000001056b7ff0 chromedriver + 4759536
+12  chromedriver                        0x00000001056bcf08 chromedriver + 4779784
+13  chromedriver                        0x00000001056bd5d5 chromedriver + 4781525
+14  chromedriver                        0x000000010569aa99 chromedriver + 4639385
+15  chromedriver                        0x00000001056bd8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010568c034 chromedriver + 4579380
+17  chromedriver                        0x00000001056d99f8 chromedriver + 4897272
+18  chromedriver                        0x00000001056d9bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001056e91ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:00:58,854 - INFO - Chrome driver closed.
+2024-10-11 21:00:58,856 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:00:58,857 - INFO - Loader initiated with TIN: 00000035
+2024-10-11 21:00:58,857 - INFO - Loader initiated with TIN: 00000036
+2024-10-11 21:00:58,858 - INFO - Loader initiated with TIN: 00000037
+2024-10-11 21:00:58,858 - INFO - Loader initiated with TIN: 00000038
+2024-10-11 21:00:58,859 - INFO - Loader initiated with TIN: 00000039
+2024-10-11 21:00:59,138 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:59,145 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:59,221 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:59,222 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:59,232 - INFO - ====== WebDriver manager ======
+2024-10-11 21:00:59,533 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:59,551 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:59,619 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:59,636 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:00:59,639 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,040 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,098 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,098 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,102 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,103 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:01:00,557 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:01:00,561 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:01:00,561 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:01:00,562 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:01:00,564 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:01:00,564 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:01:00,564 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:01:00,578 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:01:00,594 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:01:00,639 - INFO - Chrome driver initialized with headless options.
+2024-10-11 21:01:05,608 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000037
+2024-10-11 21:01:05,693 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000036
+2024-10-11 21:01:05,829 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000039
+2024-10-11 21:01:06,066 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000038
+2024-10-11 21:01:09,303 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000035
+2024-10-11 21:01:18,195 - INFO - Button clicked successfully.
+2024-10-11 21:01:18,199 - INFO - Button clicked successfully.
+2024-10-11 21:01:18,988 - INFO - Button clicked successfully.
+2024-10-11 21:13:22,298 - INFO - iScrap initiated...
+2024-10-11 21:13:22,299 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:13:22,300 - INFO - Loader initiated with TIN: 00000000
+2024-10-11 21:13:22,300 - INFO - Loader initiated with TIN: 00000001
+2024-10-11 21:13:22,301 - INFO - Loader initiated with TIN: 00000002
+2024-10-11 21:13:22,302 - INFO - Loader initiated with TIN: 00000003
+2024-10-11 21:13:22,302 - INFO - Loader initiated with TIN: 00000004
+2024-10-11 21:13:22,589 - INFO - ====== WebDriver manager ======
+2024-10-11 21:13:22,590 - INFO - ====== WebDriver manager ======
+2024-10-11 21:13:22,605 - INFO - ====== WebDriver manager ======
+2024-10-11 21:13:22,606 - INFO - ====== WebDriver manager ======
+2024-10-11 21:13:22,626 - INFO - ====== WebDriver manager ======
+2024-10-11 21:13:23,185 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,188 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,212 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,213 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,220 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,896 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,898 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,900 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,904 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:23,908 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:13:24,264 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:13:24,276 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:13:24,302 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:13:24,324 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:13:24,342 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:13:29,203 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000000
+2024-10-11 21:13:29,418 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000001
+2024-10-11 21:13:29,689 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000002
+2024-10-11 21:13:29,691 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000004
+2024-10-11 21:13:32,813 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000003
+2024-10-11 21:13:45,094 - INFO - Button clicked successfully.
+2024-10-11 21:13:45,462 - INFO - Button clicked successfully.
+2024-10-11 21:13:45,511 - INFO - Button clicked successfully.
+2024-10-11 21:13:45,580 - INFO - Button clicked successfully.
+2024-10-11 21:13:51,800 - INFO - Data successfully logged to JSON.
+2024-10-11 21:13:52,469 - INFO - Data successfully logged to JSON.
+2024-10-11 21:13:52,705 - INFO - Data successfully logged to JSON.
+2024-10-11 21:13:52,785 - INFO - Data successfully logged to JSON.
+2024-10-11 21:13:55,429 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001062afd08 chromedriver + 4996360
+1   chromedriver                        0x00000001062a75ca chromedriver + 4961738
+2   chromedriver                        0x0000000105e4ad10 chromedriver + 388368
+3   chromedriver                        0x0000000105e9730f chromedriver + 701199
+4   chromedriver                        0x0000000105e973f1 chromedriver + 701425
+5   chromedriver                        0x0000000105edc464 chromedriver + 984164
+6   chromedriver                        0x0000000105ebb9dd chromedriver + 850397
+7   chromedriver                        0x0000000105ed9a00 chromedriver + 973312
+8   chromedriver                        0x0000000105ebb753 chromedriver + 849747
+9   chromedriver                        0x0000000105e8a635 chromedriver + 648757
+10  chromedriver                        0x0000000105e8ae5e chromedriver + 650846
+11  chromedriver                        0x0000000106275ff0 chromedriver + 4759536
+12  chromedriver                        0x000000010627af08 chromedriver + 4779784
+13  chromedriver                        0x000000010627b5d5 chromedriver + 4781525
+14  chromedriver                        0x0000000106258a99 chromedriver + 4639385
+15  chromedriver                        0x000000010627b8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010624a034 chromedriver + 4579380
+17  chromedriver                        0x00000001062979f8 chromedriver + 4897272
+18  chromedriver                        0x0000000106297bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001062a71ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:14:10,772 - ERROR - Error during extraction: Message: 
+Stacktrace:
+0   chromedriver                        0x00000001062afd08 chromedriver + 4996360
+1   chromedriver                        0x00000001062a75ca chromedriver + 4961738
+2   chromedriver                        0x0000000105e4ad10 chromedriver + 388368
+3   chromedriver                        0x0000000105e9730f chromedriver + 701199
+4   chromedriver                        0x0000000105e973f1 chromedriver + 701425
+5   chromedriver                        0x0000000105edc464 chromedriver + 984164
+6   chromedriver                        0x0000000105ebb9dd chromedriver + 850397
+7   chromedriver                        0x0000000105ed9a00 chromedriver + 973312
+8   chromedriver                        0x0000000105ebb753 chromedriver + 849747
+9   chromedriver                        0x0000000105e8a635 chromedriver + 648757
+10  chromedriver                        0x0000000105e8ae5e chromedriver + 650846
+11  chromedriver                        0x0000000106275ff0 chromedriver + 4759536
+12  chromedriver                        0x000000010627af08 chromedriver + 4779784
+13  chromedriver                        0x000000010627b5d5 chromedriver + 4781525
+14  chromedriver                        0x0000000106258a99 chromedriver + 4639385
+15  chromedriver                        0x000000010627b8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010624a034 chromedriver + 4579380
+17  chromedriver                        0x00000001062979f8 chromedriver + 4897272
+18  chromedriver                        0x0000000106297bf3 chromedriver + 4897779
+19  chromedriver                        0x00000001062a71ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:14:10,994 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:14:11,003 - INFO - Loader initiated with TIN: 00000005
+2024-10-11 21:14:11,005 - INFO - Loader initiated with TIN: 00000006
+2024-10-11 21:14:11,005 - INFO - Loader initiated with TIN: 00000007
+2024-10-11 21:14:11,007 - INFO - Loader initiated with TIN: 00000008
+2024-10-11 21:14:11,023 - INFO - Loader initiated with TIN: 00000009
+2024-10-11 21:14:13,370 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:13,383 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:13,390 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:13,405 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:13,407 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:13,963 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:13,964 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:13,971 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:13,980 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:13,981 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,496 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,497 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,504 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,522 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,529 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:14,881 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:14,891 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:14,898 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:14,898 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:14,986 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:19,748 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000005
+2024-10-11 21:14:20,674 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000006
+2024-10-11 21:14:20,809 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000008
+2024-10-11 21:14:20,957 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000007
+2024-10-11 21:14:27,900 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000009
+2024-10-11 21:14:47,655 - INFO - iScrap initiated...
+2024-10-11 21:14:47,656 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:14:47,657 - INFO - Loader initiated with TIN: 00000000
+2024-10-11 21:14:47,657 - INFO - Loader initiated with TIN: 00000001
+2024-10-11 21:14:47,658 - INFO - Loader initiated with TIN: 00000002
+2024-10-11 21:14:47,658 - INFO - Loader initiated with TIN: 00000003
+2024-10-11 21:14:47,659 - INFO - Loader initiated with TIN: 00000004
+2024-10-11 21:14:49,892 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:49,893 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:49,895 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:50,001 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:50,014 - INFO - ====== WebDriver manager ======
+2024-10-11 21:14:50,290 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:50,322 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:50,323 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:50,429 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:50,440 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:51,232 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:51,233 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:51,233 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:51,233 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:51,234 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:14:52,176 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:52,176 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:52,177 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:52,177 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:52,177 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:14:57,252 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000001
+2024-10-11 21:14:57,264 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000003
+2024-10-11 21:14:57,521 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000002
+2024-10-11 21:14:57,861 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000004
+2024-10-11 21:14:59,756 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000000
+2024-10-11 21:15:17,993 - INFO - Button clicked successfully.
+2024-10-11 21:15:18,315 - INFO - Button clicked successfully.
+2024-10-11 21:15:18,322 - INFO - Button clicked successfully.
+2024-10-11 21:15:18,702 - INFO - Button clicked successfully.
+2024-10-11 21:15:25,451 - INFO - Data successfully logged to JSON.
+2024-10-11 21:15:26,081 - INFO - Data successfully logged to JSON.
+2024-10-11 21:15:26,285 - INFO - Data successfully logged to JSON.
+2024-10-11 21:15:26,653 - INFO - Data successfully logged to JSON.
+2024-10-11 21:15:27,089 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010b5b5d08 chromedriver + 4996360
+1   chromedriver                        0x000000010b5ad5ca chromedriver + 4961738
+2   chromedriver                        0x000000010b150d10 chromedriver + 388368
+3   chromedriver                        0x000000010b19d30f chromedriver + 701199
+4   chromedriver                        0x000000010b19d3f1 chromedriver + 701425
+5   chromedriver                        0x000000010b1e2464 chromedriver + 984164
+6   chromedriver                        0x000000010b1c19dd chromedriver + 850397
+7   chromedriver                        0x000000010b1dfa00 chromedriver + 973312
+8   chromedriver                        0x000000010b1c1753 chromedriver + 849747
+9   chromedriver                        0x000000010b190635 chromedriver + 648757
+10  chromedriver                        0x000000010b190e5e chromedriver + 650846
+11  chromedriver                        0x000000010b57bff0 chromedriver + 4759536
+12  chromedriver                        0x000000010b580f08 chromedriver + 4779784
+13  chromedriver                        0x000000010b5815d5 chromedriver + 4781525
+14  chromedriver                        0x000000010b55ea99 chromedriver + 4639385
+15  chromedriver                        0x000000010b5818c9 chromedriver + 4782281
+16  chromedriver                        0x000000010b550034 chromedriver + 4579380
+17  chromedriver                        0x000000010b59d9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010b59dbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010b5ad1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:15:42,577 - ERROR - Error during extraction: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010b5b5d08 chromedriver + 4996360
+1   chromedriver                        0x000000010b5ad5ca chromedriver + 4961738
+2   chromedriver                        0x000000010b150d10 chromedriver + 388368
+3   chromedriver                        0x000000010b19d30f chromedriver + 701199
+4   chromedriver                        0x000000010b19d3f1 chromedriver + 701425
+5   chromedriver                        0x000000010b1e2464 chromedriver + 984164
+6   chromedriver                        0x000000010b1c19dd chromedriver + 850397
+7   chromedriver                        0x000000010b1dfa00 chromedriver + 973312
+8   chromedriver                        0x000000010b1c1753 chromedriver + 849747
+9   chromedriver                        0x000000010b190635 chromedriver + 648757
+10  chromedriver                        0x000000010b190e5e chromedriver + 650846
+11  chromedriver                        0x000000010b57bff0 chromedriver + 4759536
+12  chromedriver                        0x000000010b580f08 chromedriver + 4779784
+13  chromedriver                        0x000000010b5815d5 chromedriver + 4781525
+14  chromedriver                        0x000000010b55ea99 chromedriver + 4639385
+15  chromedriver                        0x000000010b5818c9 chromedriver + 4782281
+16  chromedriver                        0x000000010b550034 chromedriver + 4579380
+17  chromedriver                        0x000000010b59d9f8 chromedriver + 4897272
+18  chromedriver                        0x000000010b59dbf3 chromedriver + 4897779
+19  chromedriver                        0x000000010b5ad1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:15:42,763 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:15:42,764 - INFO - Loader initiated with TIN: 00000005
+2024-10-11 21:15:42,764 - INFO - Loader initiated with TIN: 00000006
+2024-10-11 21:15:42,765 - INFO - Loader initiated with TIN: 00000007
+2024-10-11 21:15:42,766 - INFO - Loader initiated with TIN: 00000008
+2024-10-11 21:15:42,767 - INFO - Loader initiated with TIN: 00000009
+2024-10-11 21:15:43,139 - INFO - ====== WebDriver manager ======
+2024-10-11 21:15:43,170 - INFO - ====== WebDriver manager ======
+2024-10-11 21:15:43,431 - INFO - ====== WebDriver manager ======
+2024-10-11 21:15:43,459 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:43,496 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:43,752 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,092 - INFO - ====== WebDriver manager ======
+2024-10-11 21:15:44,094 - INFO - ====== WebDriver manager ======
+2024-10-11 21:15:44,388 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,388 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,518 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,600 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,620 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,922 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:44,926 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:15:45,076 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:15:45,088 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:15:45,216 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:15:45,356 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:15:45,376 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:15:49,286 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000005
+2024-10-11 21:15:49,806 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000008
+2024-10-11 21:15:51,442 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000006
+2024-10-11 21:15:51,683 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000007
+2024-10-11 21:15:56,881 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000009
+2024-10-11 21:15:58,829 - INFO - Button clicked successfully.
+2024-10-11 21:16:00,206 - INFO - Button clicked successfully.
+2024-10-11 21:16:01,322 - INFO - Button clicked successfully.
+2024-10-11 21:16:01,593 - INFO - Button clicked successfully.
+2024-10-11 21:16:03,786 - INFO - Button clicked successfully.
+2024-10-11 21:16:05,423 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:06,397 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:07,606 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:07,920 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:09,956 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:10,057 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:16:10,058 - INFO - Loader initiated with TIN: 00000010
+2024-10-11 21:16:10,058 - INFO - Loader initiated with TIN: 00000011
+2024-10-11 21:16:10,058 - INFO - Loader initiated with TIN: 00000012
+2024-10-11 21:16:10,059 - INFO - Loader initiated with TIN: 00000013
+2024-10-11 21:16:10,060 - INFO - Loader initiated with TIN: 00000014
+2024-10-11 21:16:10,577 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:10,832 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:10,853 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:10,853 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:10,853 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:10,937 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:11,198 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,201 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,213 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,277 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,351 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,612 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,638 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,677 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,748 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:11,798 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:12,265 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:12,271 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:12,274 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:12,719 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:15,195 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000011
+2024-10-11 21:16:15,895 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000013
+2024-10-11 21:16:18,199 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000012
+2024-10-11 21:16:18,202 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000014
+2024-10-11 21:16:19,526 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000010
+2024-10-11 21:16:26,021 - INFO - Button clicked successfully.
+2024-10-11 21:16:31,039 - INFO - Button clicked successfully.
+2024-10-11 21:16:32,169 - INFO - Button clicked successfully.
+2024-10-11 21:16:32,344 - INFO - Button clicked successfully.
+2024-10-11 21:16:32,347 - INFO - Button clicked successfully.
+2024-10-11 21:16:33,949 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:37,813 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:39,598 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:39,689 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:39,704 - INFO - Data successfully logged to JSON.
+2024-10-11 21:16:39,869 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:16:39,870 - INFO - Loader initiated with TIN: 00000015
+2024-10-11 21:16:39,871 - INFO - Loader initiated with TIN: 00000016
+2024-10-11 21:16:39,871 - INFO - Loader initiated with TIN: 00000017
+2024-10-11 21:16:39,873 - INFO - Loader initiated with TIN: 00000018
+2024-10-11 21:16:39,873 - INFO - Loader initiated with TIN: 00000019
+2024-10-11 21:16:40,815 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:40,815 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:40,816 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:40,816 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:40,835 - INFO - ====== WebDriver manager ======
+2024-10-11 21:16:41,754 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:41,788 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:41,796 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:41,879 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:41,880 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,166 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,167 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,237 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,302 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,329 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:16:42,775 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:42,778 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:42,781 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:42,901 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:42,901 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:16:49,146 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000018
+2024-10-11 21:16:49,455 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000017
+2024-10-11 21:16:49,711 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000016
+2024-10-11 21:16:50,086 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000019
+2024-10-11 21:16:54,973 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000015
+2024-10-11 21:16:59,623 - INFO - Button clicked successfully.
+2024-10-11 21:17:00,809 - INFO - Button clicked successfully.
+2024-10-11 21:17:02,258 - INFO - Button clicked successfully.
+2024-10-11 21:17:04,612 - INFO - Button clicked successfully.
+2024-10-11 21:17:05,500 - INFO - Button clicked successfully.
+2024-10-11 21:17:07,628 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:08,245 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:08,967 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:10,935 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:12,025 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:12,229 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:17:12,230 - INFO - Loader initiated with TIN: 00000020
+2024-10-11 21:17:12,230 - INFO - Loader initiated with TIN: 00000021
+2024-10-11 21:17:12,231 - INFO - Loader initiated with TIN: 00000022
+2024-10-11 21:17:12,232 - INFO - Loader initiated with TIN: 00000023
+2024-10-11 21:17:12,233 - INFO - Loader initiated with TIN: 00000024
+2024-10-11 21:17:12,897 - INFO - ====== WebDriver manager ======
+2024-10-11 21:17:12,958 - INFO - ====== WebDriver manager ======
+2024-10-11 21:17:13,012 - INFO - ====== WebDriver manager ======
+2024-10-11 21:17:13,012 - INFO - ====== WebDriver manager ======
+2024-10-11 21:17:13,020 - INFO - ====== WebDriver manager ======
+2024-10-11 21:17:13,361 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:13,371 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:13,586 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:13,608 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:13,620 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,111 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,111 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,294 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,295 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,301 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:17:14,739 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:17:14,757 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:17:15,260 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:17:15,391 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:17:15,419 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:17:18,866 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000021
+2024-10-11 21:17:18,878 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000020
+2024-10-11 21:17:22,355 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000023
+2024-10-11 21:17:25,051 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000022
+2024-10-11 21:17:27,452 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000024
+2024-10-11 21:17:31,308 - INFO - Button clicked successfully.
+2024-10-11 21:17:31,512 - INFO - Button clicked successfully.
+2024-10-11 21:17:35,797 - INFO - Button clicked successfully.
+2024-10-11 21:17:36,951 - INFO - Button clicked successfully.
+2024-10-11 21:17:38,430 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:38,493 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:41,933 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:42,983 - INFO - Data successfully logged to JSON.
+2024-10-11 21:17:43,018 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000109adcd08 chromedriver + 4996360
+1   chromedriver                        0x0000000109ad45ca chromedriver + 4961738
+2   chromedriver                        0x0000000109677d10 chromedriver + 388368
+3   chromedriver                        0x00000001096c430f chromedriver + 701199
+4   chromedriver                        0x00000001096c43f1 chromedriver + 701425
+5   chromedriver                        0x0000000109709464 chromedriver + 984164
+6   chromedriver                        0x00000001096e89dd chromedriver + 850397
+7   chromedriver                        0x0000000109706a00 chromedriver + 973312
+8   chromedriver                        0x00000001096e8753 chromedriver + 849747
+9   chromedriver                        0x00000001096b7635 chromedriver + 648757
+10  chromedriver                        0x00000001096b7e5e chromedriver + 650846
+11  chromedriver                        0x0000000109aa2ff0 chromedriver + 4759536
+12  chromedriver                        0x0000000109aa7f08 chromedriver + 4779784
+13  chromedriver                        0x0000000109aa85d5 chromedriver + 4781525
+14  chromedriver                        0x0000000109a85a99 chromedriver + 4639385
+15  chromedriver                        0x0000000109aa88c9 chromedriver + 4782281
+16  chromedriver                        0x0000000109a77034 chromedriver + 4579380
+17  chromedriver                        0x0000000109ac49f8 chromedriver + 4897272
+18  chromedriver                        0x0000000109ac4bf3 chromedriver + 4897779
+19  chromedriver                        0x0000000109ad41ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:17:58,386 - ERROR - Error during extraction: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000109adcd08 chromedriver + 4996360
+1   chromedriver                        0x0000000109ad45ca chromedriver + 4961738
+2   chromedriver                        0x0000000109677d10 chromedriver + 388368
+3   chromedriver                        0x00000001096c430f chromedriver + 701199
+4   chromedriver                        0x00000001096c43f1 chromedriver + 701425
+5   chromedriver                        0x0000000109709464 chromedriver + 984164
+6   chromedriver                        0x00000001096e89dd chromedriver + 850397
+7   chromedriver                        0x0000000109706a00 chromedriver + 973312
+8   chromedriver                        0x00000001096e8753 chromedriver + 849747
+9   chromedriver                        0x00000001096b7635 chromedriver + 648757
+10  chromedriver                        0x00000001096b7e5e chromedriver + 650846
+11  chromedriver                        0x0000000109aa2ff0 chromedriver + 4759536
+12  chromedriver                        0x0000000109aa7f08 chromedriver + 4779784
+13  chromedriver                        0x0000000109aa85d5 chromedriver + 4781525
+14  chromedriver                        0x0000000109a85a99 chromedriver + 4639385
+15  chromedriver                        0x0000000109aa88c9 chromedriver + 4782281
+16  chromedriver                        0x0000000109a77034 chromedriver + 4579380
+17  chromedriver                        0x0000000109ac49f8 chromedriver + 4897272
+18  chromedriver                        0x0000000109ac4bf3 chromedriver + 4897779
+19  chromedriver                        0x0000000109ad41ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:17:58,563 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:17:58,564 - INFO - Loader initiated with TIN: 00000025
+2024-10-11 21:17:58,564 - INFO - Loader initiated with TIN: 00000026
+2024-10-11 21:17:58,565 - INFO - Loader initiated with TIN: 00000028
+2024-10-11 21:17:58,564 - INFO - Loader initiated with TIN: 00000027
+2024-10-11 21:17:58,566 - INFO - Loader initiated with TIN: 00000029
+2024-10-11 21:18:02,714 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:02,715 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:02,716 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:02,798 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:02,831 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:03,365 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,368 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,370 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,414 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,420 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,763 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,769 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,782 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,789 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:03,829 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:04,162 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:04,205 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:04,226 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:04,252 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:04,274 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:11,503 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000028
+2024-10-11 21:18:11,505 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000027
+2024-10-11 21:18:11,965 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000025
+2024-10-11 21:18:12,083 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000026
+2024-10-11 21:18:19,700 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000029
+2024-10-11 21:18:21,475 - INFO - Button clicked successfully.
+2024-10-11 21:18:21,844 - INFO - Button clicked successfully.
+2024-10-11 21:18:22,657 - INFO - Button clicked successfully.
+2024-10-11 21:18:23,214 - INFO - Button clicked successfully.
+2024-10-11 21:18:27,923 - INFO - Data successfully logged to JSON.
+2024-10-11 21:18:28,539 - INFO - Data successfully logged to JSON.
+2024-10-11 21:18:29,433 - INFO - Data successfully logged to JSON.
+2024-10-11 21:18:29,798 - INFO - Data successfully logged to JSON.
+2024-10-11 21:18:36,387 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000108f86d08 chromedriver + 4996360
+1   chromedriver                        0x0000000108f7e5ca chromedriver + 4961738
+2   chromedriver                        0x0000000108b21d10 chromedriver + 388368
+3   chromedriver                        0x0000000108b6e30f chromedriver + 701199
+4   chromedriver                        0x0000000108b6e3f1 chromedriver + 701425
+5   chromedriver                        0x0000000108bb3464 chromedriver + 984164
+6   chromedriver                        0x0000000108b929dd chromedriver + 850397
+7   chromedriver                        0x0000000108bb0a00 chromedriver + 973312
+8   chromedriver                        0x0000000108b92753 chromedriver + 849747
+9   chromedriver                        0x0000000108b61635 chromedriver + 648757
+10  chromedriver                        0x0000000108b61e5e chromedriver + 650846
+11  chromedriver                        0x0000000108f4cff0 chromedriver + 4759536
+12  chromedriver                        0x0000000108f51f08 chromedriver + 4779784
+13  chromedriver                        0x0000000108f525d5 chromedriver + 4781525
+14  chromedriver                        0x0000000108f2fa99 chromedriver + 4639385
+15  chromedriver                        0x0000000108f528c9 chromedriver + 4782281
+16  chromedriver                        0x0000000108f21034 chromedriver + 4579380
+17  chromedriver                        0x0000000108f6e9f8 chromedriver + 4897272
+18  chromedriver                        0x0000000108f6ebf3 chromedriver + 4897779
+19  chromedriver                        0x0000000108f7e1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:18:56,942 - INFO - iScrap initiated...
+2024-10-11 21:18:56,942 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:18:56,943 - INFO - Loader initiated with TIN: 00000000
+2024-10-11 21:18:56,943 - INFO - Loader initiated with TIN: 00000001
+2024-10-11 21:18:56,944 - INFO - Loader initiated with TIN: 00000002
+2024-10-11 21:18:56,944 - INFO - Loader initiated with TIN: 00000003
+2024-10-11 21:18:56,945 - INFO - Loader initiated with TIN: 00000004
+2024-10-11 21:18:57,586 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:57,593 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:57,641 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:57,641 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:57,661 - INFO - ====== WebDriver manager ======
+2024-10-11 21:18:57,951 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:57,968 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,023 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,056 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,077 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,722 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,726 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,726 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:58,727 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:18:59,381 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:59,381 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:59,381 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:59,381 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:18:59,382 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:04,501 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000004
+2024-10-11 21:19:04,562 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000002
+2024-10-11 21:19:04,700 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000000
+2024-10-11 21:19:04,804 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000001
+2024-10-11 21:19:06,415 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000003
+2024-10-11 21:19:14,618 - INFO - Button clicked successfully.
+2024-10-11 21:19:14,950 - INFO - Button clicked successfully.
+2024-10-11 21:19:15,996 - INFO - Button clicked successfully.
+2024-10-11 21:19:16,347 - INFO - Button clicked successfully.
+2024-10-11 21:19:21,120 - INFO - Data successfully logged to JSON.
+2024-10-11 21:19:21,793 - INFO - Data successfully logged to JSON.
+2024-10-11 21:19:22,794 - INFO - Data successfully logged to JSON.
+2024-10-11 21:19:22,901 - INFO - Data successfully logged to JSON.
+2024-10-11 21:19:24,043 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105b07d08 chromedriver + 4996360
+1   chromedriver                        0x0000000105aff5ca chromedriver + 4961738
+2   chromedriver                        0x00000001056a2d10 chromedriver + 388368
+3   chromedriver                        0x00000001056ef30f chromedriver + 701199
+4   chromedriver                        0x00000001056ef3f1 chromedriver + 701425
+5   chromedriver                        0x0000000105734464 chromedriver + 984164
+6   chromedriver                        0x00000001057139dd chromedriver + 850397
+7   chromedriver                        0x0000000105731a00 chromedriver + 973312
+8   chromedriver                        0x0000000105713753 chromedriver + 849747
+9   chromedriver                        0x00000001056e2635 chromedriver + 648757
+10  chromedriver                        0x00000001056e2e5e chromedriver + 650846
+11  chromedriver                        0x0000000105acdff0 chromedriver + 4759536
+12  chromedriver                        0x0000000105ad2f08 chromedriver + 4779784
+13  chromedriver                        0x0000000105ad35d5 chromedriver + 4781525
+14  chromedriver                        0x0000000105ab0a99 chromedriver + 4639385
+15  chromedriver                        0x0000000105ad38c9 chromedriver + 4782281
+16  chromedriver                        0x0000000105aa2034 chromedriver + 4579380
+17  chromedriver                        0x0000000105aef9f8 chromedriver + 4897272
+18  chromedriver                        0x0000000105aefbf3 chromedriver + 4897779
+19  chromedriver                        0x0000000105aff1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:19:39,413 - ERROR - Error during extraction: Message: 
+Stacktrace:
+0   chromedriver                        0x0000000105b07d08 chromedriver + 4996360
+1   chromedriver                        0x0000000105aff5ca chromedriver + 4961738
+2   chromedriver                        0x00000001056a2d10 chromedriver + 388368
+3   chromedriver                        0x00000001056ef30f chromedriver + 701199
+4   chromedriver                        0x00000001056ef3f1 chromedriver + 701425
+5   chromedriver                        0x0000000105734464 chromedriver + 984164
+6   chromedriver                        0x00000001057139dd chromedriver + 850397
+7   chromedriver                        0x0000000105731a00 chromedriver + 973312
+8   chromedriver                        0x0000000105713753 chromedriver + 849747
+9   chromedriver                        0x00000001056e2635 chromedriver + 648757
+10  chromedriver                        0x00000001056e2e5e chromedriver + 650846
+11  chromedriver                        0x0000000105acdff0 chromedriver + 4759536
+12  chromedriver                        0x0000000105ad2f08 chromedriver + 4779784
+13  chromedriver                        0x0000000105ad35d5 chromedriver + 4781525
+14  chromedriver                        0x0000000105ab0a99 chromedriver + 4639385
+15  chromedriver                        0x0000000105ad38c9 chromedriver + 4782281
+16  chromedriver                        0x0000000105aa2034 chromedriver + 4579380
+17  chromedriver                        0x0000000105aef9f8 chromedriver + 4897272
+18  chromedriver                        0x0000000105aefbf3 chromedriver + 4897779
+19  chromedriver                        0x0000000105aff1ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
+2024-10-11 21:19:39,572 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:19:39,573 - INFO - Loader initiated with TIN: 00000005
+2024-10-11 21:19:39,573 - INFO - Loader initiated with TIN: 00000006
+2024-10-11 21:19:39,574 - INFO - Loader initiated with TIN: 00000007
+2024-10-11 21:19:39,576 - INFO - Loader initiated with TIN: 00000008
+2024-10-11 21:19:39,579 - INFO - Loader initiated with TIN: 00000009
+2024-10-11 21:19:40,804 - INFO - ====== WebDriver manager ======
+2024-10-11 21:19:40,817 - INFO - ====== WebDriver manager ======
+2024-10-11 21:19:40,833 - INFO - ====== WebDriver manager ======
+2024-10-11 21:19:40,853 - INFO - ====== WebDriver manager ======
+2024-10-11 21:19:40,871 - INFO - ====== WebDriver manager ======
+2024-10-11 21:19:41,221 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,238 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,241 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,257 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,259 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,632 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,640 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,645 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,649 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:41,657 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:19:42,049 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:42,057 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:42,060 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:42,069 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:42,069 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:19:46,751 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000005
+2024-10-11 21:19:46,971 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000009
+2024-10-11 21:19:47,220 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000008
+2024-10-11 21:19:47,305 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000007
+2024-10-11 21:19:49,980 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000006
+2024-10-11 21:19:57,559 - INFO - Button clicked successfully.
+2024-10-11 21:19:59,026 - INFO - Button clicked successfully.
+2024-10-11 21:19:59,076 - INFO - Button clicked successfully.
+2024-10-11 21:19:59,555 - INFO - Button clicked successfully.
+2024-10-11 21:20:00,104 - INFO - Button clicked successfully.
+2024-10-11 21:20:03,534 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:06,206 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:06,388 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:06,985 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:07,205 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:07,301 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:20:07,302 - INFO - Loader initiated with TIN: 00000010
+2024-10-11 21:20:07,302 - INFO - Loader initiated with TIN: 00000011
+2024-10-11 21:20:07,302 - INFO - Loader initiated with TIN: 00000012
+2024-10-11 21:20:07,304 - INFO - Loader initiated with TIN: 00000013
+2024-10-11 21:20:07,306 - INFO - Loader initiated with TIN: 00000014
+2024-10-11 21:20:08,197 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:08,218 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:08,231 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:08,232 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:08,243 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:08,665 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:08,679 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:08,690 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:08,691 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:08,698 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,137 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,149 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,150 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,150 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,155 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:09,541 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:09,552 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:09,556 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:09,572 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:09,626 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:13,898 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000014
+2024-10-11 21:20:14,416 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000013
+2024-10-11 21:20:14,418 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000011
+2024-10-11 21:20:14,663 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000012
+2024-10-11 21:20:18,774 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000010
+2024-10-11 21:20:23,485 - INFO - Button clicked successfully.
+2024-10-11 21:20:23,753 - INFO - Button clicked successfully.
+2024-10-11 21:20:23,848 - INFO - Button clicked successfully.
+2024-10-11 21:20:24,268 - INFO - Button clicked successfully.
+2024-10-11 21:20:26,052 - INFO - Button clicked successfully.
+2024-10-11 21:20:30,292 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:31,014 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:31,269 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:31,710 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:32,418 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:32,524 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:20:32,525 - INFO - Loader initiated with TIN: 00000015
+2024-10-11 21:20:32,525 - INFO - Loader initiated with TIN: 00000016
+2024-10-11 21:20:32,526 - INFO - Loader initiated with TIN: 00000017
+2024-10-11 21:20:32,526 - INFO - Loader initiated with TIN: 00000018
+2024-10-11 21:20:32,527 - INFO - Loader initiated with TIN: 00000019
+2024-10-11 21:20:32,766 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:32,768 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:32,773 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:32,774 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:32,825 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:33,171 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,174 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,177 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,188 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,211 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,565 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,574 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,586 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,603 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,608 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:33,953 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:33,966 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:33,979 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:34,028 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:34,042 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:37,675 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000018
+2024-10-11 21:20:38,742 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000016
+2024-10-11 21:20:39,105 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000019
+2024-10-11 21:20:39,197 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000015
+2024-10-11 21:20:42,965 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000017
+2024-10-11 21:20:48,258 - INFO - Button clicked successfully.
+2024-10-11 21:20:49,401 - INFO - Button clicked successfully.
+2024-10-11 21:20:49,614 - INFO - Button clicked successfully.
+2024-10-11 21:20:50,905 - INFO - Button clicked successfully.
+2024-10-11 21:20:51,553 - INFO - Button clicked successfully.
+2024-10-11 21:20:54,583 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:55,881 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:56,362 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:57,611 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:58,116 - INFO - Data successfully logged to JSON.
+2024-10-11 21:20:58,286 - INFO - Processing 5 TIN numbers...
+2024-10-11 21:20:58,287 - INFO - Loader initiated with TIN: 00000020
+2024-10-11 21:20:58,287 - INFO - Loader initiated with TIN: 00000021
+2024-10-11 21:20:58,288 - INFO - Loader initiated with TIN: 00000022
+2024-10-11 21:20:58,289 - INFO - Loader initiated with TIN: 00000023
+2024-10-11 21:20:58,293 - INFO - Loader initiated with TIN: 00000024
+2024-10-11 21:20:58,593 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:58,594 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:58,596 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:58,596 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:58,665 - INFO - ====== WebDriver manager ======
+2024-10-11 21:20:59,037 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,061 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,085 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,094 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,187 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,469 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,480 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,481 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,491 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,638 - INFO - Get LATEST chromedriver version for google-chrome
+2024-10-11 21:20:59,883 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:59,898 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:59,903 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:20:59,956 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:21:00,061 - INFO - Driver [/Users/naty/.wdm/drivers/chromedriver/mac64/129.0.6668.100/chromedriver-mac-x64/chromedriver] found in cache
+2024-10-11 21:21:06,135 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000021
+2024-10-11 21:21:06,449 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000022
+2024-10-11 21:21:06,583 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000024
+2024-10-11 21:21:07,015 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000020
+2024-10-11 21:21:14,273 - INFO - Opening URL: https://etrade.gov.et/business-license-checker?tin=0000000023
+2024-10-11 21:21:18,853 - INFO - Button clicked successfully.
+2024-10-11 21:21:19,100 - INFO - Button clicked successfully.
+2024-10-11 21:21:19,599 - INFO - Button clicked successfully.
+2024-10-11 21:21:19,854 - INFO - Button clicked successfully.
+2024-10-11 21:21:26,059 - INFO - Data successfully logged to JSON.
+2024-10-11 21:21:26,274 - INFO - Data successfully logged to JSON.
+2024-10-11 21:21:26,881 - INFO - Data successfully logged to JSON.
+2024-10-11 21:21:27,150 - INFO - Data successfully logged to JSON.
+2024-10-11 21:21:31,957 - ERROR - Button not found or invalid TIN. Error: Message: 
+Stacktrace:
+0   chromedriver                        0x000000010aa50d08 chromedriver + 4996360
+1   chromedriver                        0x000000010aa485ca chromedriver + 4961738
+2   chromedriver                        0x000000010a5ebd10 chromedriver + 388368
+3   chromedriver                        0x000000010a63830f chromedriver + 701199
+4   chromedriver                        0x000000010a6383f1 chromedriver + 701425
+5   chromedriver                        0x000000010a67d464 chromedriver + 984164
+6   chromedriver                        0x000000010a65c9dd chromedriver + 850397
+7   chromedriver                        0x000000010a67aa00 chromedriver + 973312
+8   chromedriver                        0x000000010a65c753 chromedriver + 849747
+9   chromedriver                        0x000000010a62b635 chromedriver + 648757
+10  chromedriver                        0x000000010a62be5e chromedriver + 650846
+11  chromedriver                        0x000000010aa16ff0 chromedriver + 4759536
+12  chromedriver                        0x000000010aa1bf08 chromedriver + 4779784
+13  chromedriver                        0x000000010aa1c5d5 chromedriver + 4781525
+14  chromedriver                        0x000000010a9f9a99 chromedriver + 4639385
+15  chromedriver                        0x000000010aa1c8c9 chromedriver + 4782281
+16  chromedriver                        0x000000010a9eb034 chromedriver + 4579380
+17  chromedriver                        0x000000010aa389f8 chromedriver + 4897272
+18  chromedriver                        0x000000010aa38bf3 chromedriver + 4897779
+19  chromedriver                        0x000000010aa481ce chromedriver + 4960718
+20  libsystem_pthread.dylib             0x00007ff80d31f4e1 _pthread_start + 125
+21  libsystem_pthread.dylib             0x00007ff80d31af6b thread_start + 15
+
