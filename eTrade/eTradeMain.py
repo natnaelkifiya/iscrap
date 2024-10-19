@@ -1,59 +1,3 @@
-
-# from load import Loader
-# import threading
-# from TGenerator import TGenerator
-# from param import parameters
-# from tinWriter import TinManager
-# import logging
-
-
-# logging.basicConfig(
-#         filename='etrade_logs/app.log',  # Specify log file
-#         level=logging.ERROR,  # Set logging level to capture errors
-#         format='%(asctime)s - %(levelname)s - %(message)s'  # Customize the log format
-#     )
-
-# def run_in_thread(tin, url):
-#     page_loader = Loader(url)
-#     try:
-#         page_loader.load_page(tin)
-#     except Exception as e:
-#         logging.error('Error loading page: %s', e)
-#         return e
-
-
-# if __name__ == '__main__':
-#     # Example of running multiple threads
-#     # tins =['0011385998']
-#     # tins =['0021385998','0011385998']
-#     logging.info('iScrap initiated ...')
-    
-
-#     #  usage:
-#     gen = TGenerator()
-#     param = parameters()
-
-#     while (True):
-
-#         # Get the first n numbers
-#         tins =  gen.get_next_numbers(param.eTradeParam['batch_size']) 
-
-
-#         # tins = ['001138599']  # Replace with actual TINs
-#         threads = []
-#         # url= 'https://etrade.gov.et/business-license-checker'
-
-#         for tin in tins:
-#             logging.info('Extracting Tin numbers of size: ', len(tins))
-#             thread = threading.Thread(target=run_in_thread, args=(tin,param.eTradeParam['base_url']+'?tin=00'+str(tin),))
-#             threads.append(thread)
-#             thread.start()
-
-#         # Wait for all threads to complete
-#         for thread in threads:
-#             thread.join()
-
-
 import threading
 import logging
 from load import Loader
@@ -101,11 +45,11 @@ def main():
 
         if not tins:
             logging.info('No more TINs to process. Exiting...')
-            print('No more TINs to process. Exiting...',end='\r')
+            print(f"No More tins to process", end='\r')
             break
 
         logging.info('Processing %d TIN numbers...', len(tins))
-        print('Processing %d TIN numbers...', len(tins),end='\r')
+        print(f"Processing {tins} ", end='\r')
         
         threads = []
 
