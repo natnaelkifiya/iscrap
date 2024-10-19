@@ -28,7 +28,7 @@ class Loader:
 
     def load_page(self, tin='0011385997'):
         logging.info(f"Loader initiated with TIN: {tin}")
-        print('Loader initiated ...', end='\r')
+        print(f"Loader for {tin} has been initiated.", end='\r')
 
         # Check if the website is online
         if not is_online(self.url):
@@ -45,6 +45,7 @@ class Loader:
             # Initialize the WebDriver via Selenium Grid
             self.driver = webdriver.Remote(command_executor=grid_url, options=options)
             logging.info(f"Opening URL: {self.url}")
+            print(f"Website {self.url} is is being opened.", end='\r')
             self.driver.get(self.url)
 
             # Wait for button to appear and click it
@@ -54,7 +55,7 @@ class Loader:
 
         except Exception as e:
             logging.error(f"Error occurred while loading page: {e}")
-            print(f"Error occurred while loading page", end='\r')
+            print(f"Error occured while loading {self.url}", end='\r')
 
         finally:
             if self.driver:
@@ -71,7 +72,7 @@ class Loader:
             logging.info("Button clicked successfully.")
         except Exception as e:
             logging.error(f"Button not found or invalid TIN. Error: {e}")
-            print(f"Button not found", end='\r')
+            print(f"Button in {self.url} could not be found.", end='\r')
 
 def is_online(url):
     """Check if the website is reachable."""
@@ -80,7 +81,7 @@ def is_online(url):
         return response.status_code == 200
     except requests.RequestException as e:
         logging.error(f"Website check failed: {e}")
-        print('Website ping not responding ...', end='\r')
+        print(f"Website {url} is not responding.", end='\r')
         return False
 
 def extract(driver):
@@ -109,7 +110,7 @@ def extract(driver):
 
     except Exception as e:
         logging.error(f"Error during extraction: {e}")
-        print('Could not extract data points ...', end='\r')
+        print(f"Website {driver.url} is open but could not extract data.", end='\r')
 
 def log_arranger(lt, lb, mt, mm, mb):
     """Arrange extracted logs in a specific format."""
@@ -171,8 +172,10 @@ def log_to_json(data):
             json.dump(existing_data, f, ensure_ascii=False, indent=4)
 
         logging.info("Data successfully logged to JSON.")
+        print(f"Data logged into {file_path} successfully.", end='\r')
     except Exception as e:
         logging.error(f"Issue writing to JSON file: {e}")
+        print(f"Issue Logging into JSON file {e}", end='\r')
 
 if __name__ == "__main__":
     url = "https://etrade.gov.et/business-license-checker?tin=0021385998"
