@@ -1,14 +1,56 @@
+
+
+# # Initialize the WebDriver with the updated method
+# driver = webdriver.Remote(command_executor=grid_url, options=options)
+# try:
+#     # Open Google
+#     driver.get("http://www.google.com")
+
+#     # Wait for the page to load
+#     time.sleep(2)
+
+#     # Print the title of the page
+#     print("Page title is:", driver.title)
+
+#     # Find the search box
+#     search_box = driver.find_element("name", "q")
+
+#     # Type "Selenium" in the search box
+#     search_box.send_keys("Selenium")
+
+#     # Submit the search
+#     search_box.submit()
+
+#     # Wait for results to load
+#     time.sleep(2)  # Adjust the wait time as necessary
+
+#     # Print the title of the results page
+#     print("Results page title is:", driver.title)
+
+# finally:
+#     # Close the WebDriver
+#     driver.quit()
+
+
+
+
+
+
 import os
 import json
 import time
 import logging
 import requests
 from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
+from selenium.webdriver.firefox.service import Service
+from selenium.webdriver.firefox.options import Options
+from webdriver_manager.firefox import GeckoDriverManager
+
+grid_url ='http://172.17.0.2:4444/wd/hub'
 
 
 # Configure logging
@@ -33,19 +75,23 @@ class Loader:
             print(f"Website {self.url} is offline or unreachable.", end='/r')
             return None
 
-        # Initialize Chrome WebDriver in headless mode
-        service = Service(ChromeDriverManager().install())
-        options = webdriver.ChromeOptions()
-        options.add_argument('--headless')
+        # Initialize Firefox WebDriver in headless mode
+        service = Service(GeckoDriverManager().install())  # Automatically installs GeckoDriver
+        options = Options()
+        options.headless = True  # Headless mode
         options.add_argument('--disable-gpu')
         options.add_argument('--no-sandbox')
         options.add_argument('--disable-dev-shm-usage')
+
 
         # logging.info("Chrome driver initialized with headless options.")
         
 
         try:
-            self.driver = webdriver.Chrome(service=service, options=options)
+
+            # Initialize the WebDriver with the updated method
+            self.driver = webdriver.Remote(command_executor=grid_url, options=options)
+            # self.driver = webdriver.Chrome(service=service, options=options)
             logging.info(f"Opening URL: {self.url}")
             self.driver.get(self.url)
 
