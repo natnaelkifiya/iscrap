@@ -98,8 +98,13 @@ class Loader:
 
 def is_online(url):
     """Check if the website is reachable."""
+    headers = {
+    "Authorization": "token TOKEN"
+}
+
+    
     try:
-        response = requests.get(url, timeout=5)
+        response = requests.get(url, timeout=5, headers=headers)
         return response.status_code == 200
     except requests.RequestException as e:
         logging.error(f"Website check failed: {e}")
