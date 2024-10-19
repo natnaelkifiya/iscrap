@@ -1,41 +1,3 @@
-
-
-# # Initialize the WebDriver with the updated method
-# driver = webdriver.Remote(command_executor=grid_url, options=options)
-# try:
-#     # Open Google
-#     driver.get("http://www.google.com")
-
-#     # Wait for the page to load
-#     time.sleep(2)
-
-#     # Print the title of the page
-#     print("Page title is:", driver.title)
-
-#     # Find the search box
-#     search_box = driver.find_element("name", "q")
-
-#     # Type "Selenium" in the search box
-#     search_box.send_keys("Selenium")
-
-#     # Submit the search
-#     search_box.submit()
-
-#     # Wait for results to load
-#     time.sleep(2)  # Adjust the wait time as necessary
-
-#     # Print the title of the results page
-#     print("Results page title is:", driver.title)
-
-# finally:
-#     # Close the WebDriver
-#     driver.quit()
-
-
-
-
-
-
 import os
 import json
 import time
@@ -49,6 +11,7 @@ from selenium.webdriver.common.desired_capabilities import DesiredCapabilities
 from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
+
 
 grid_url ='http://172.17.0.2:4444/wd/hub'
 
@@ -113,13 +76,13 @@ class Loader:
         try:
             xpath = "//tbody[@class='mdc-data-table__content ng-star-inserted']//tr[@role='row']//button[contains(@class, 'mdc-button--outlined')]"
             button_click = WebDriverWait(self.driver, 10).until(
-                EC.presence_of_element_located((By.XPATH, xpath))
+                EC.element_to_be_clickable((By.XPATH, xpath))  # Wait until the button is clickable
             )
             button_click.click()
             logging.info("Button clicked successfully.")
         except Exception as e:
             logging.error(f"Button not found or invalid TIN. Error: {e}")
-            print(f"Button not found",end='/r')
+            print(f"Button not found   ", end='\r')
 
 
 def is_online(url):
