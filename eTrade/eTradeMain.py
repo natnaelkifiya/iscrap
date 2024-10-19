@@ -105,7 +105,7 @@ def main():
             break
 
         logging.info('Processing %d TIN numbers...', len(tins))
-        print('Processing %d TIN numbers...', len(tins),end='\r')
+        print(f"Processing tins {tins}", end='\r')
         
         threads = []
 
