@@ -24,6 +24,7 @@ def run_in_thread(tin, url):
         page_loader.load_page(tin)
     except Exception as e:
         logging.error('Error loading page for TIN %s: %s', tin, e)
+        print(f"Error Loading Page for {tin} ", end='\r')
         return e
 
 def main():
