@@ -68,32 +68,32 @@ class Loader:
                 self.driver.quit()
                 # logging.info("Chrome driver closed.")
     
-    # def click_button(self):
-    #     """Clicks the required button on the page if present."""
-    #     try:
-    #         xpath = "//tbody[@class='mdc-data-table__content ng-star-inserted']//tr[@role='row']//button[contains(@class, 'mdc-button--outlined')]"
-    #         button_click = WebDriverWait(self.driver, 10).until(
-    #             EC.presence_of_element_located((By.XPATH, xpath))
-    #         )
-    #         self.driver.execute_script("arguments[0].click();", button_click)  # Use JS click
-    #         logging.info("Button clicked successfully.")
-    #     except Exception as e:
-    #         logging.error(f"Button not found or invalid TIN. Error: {e}")
-    #         print(f"Button not found", end='\r')
-
-
     def click_button(self):
         """Clicks the required button on the page if present."""
         try:
             xpath = "//tbody[@class='mdc-data-table__content ng-star-inserted']//tr[@role='row']//button[contains(@class, 'mdc-button--outlined')]"
             button_click = WebDriverWait(self.driver, 10).until(
-                EC.element_to_be_clickable((By.XPATH, xpath))  # Wait until the button is clickable
+                EC.presence_of_element_located((By.XPATH, xpath))
             )
-            button_click.click()
+            self.driver.execute_script("arguments[0].click();", button_click)  # Use JS click
             logging.info("Button clicked successfully.")
         except Exception as e:
             logging.error(f"Button not found or invalid TIN. Error: {e}")
-            print(f"Button not found   ", end='\r')
+            print(f"Button not found", end='\r')
+
+
+    # def click_button(self):
+    #     """Clicks the required button on the page if present."""
+    #     try:
+    #         xpath = "//tbody[@class='mdc-data-table__content ng-star-inserted']//tr[@role='row']//button[contains(@class, 'mdc-button--outlined')]"
+    #         button_click = WebDriverWait(self.driver, 10).until(
+    #             EC.element_to_be_clickable((By.XPATH, xpath))  # Wait until the button is clickable
+    #         )
+    #         button_click.click()
+    #         logging.info("Button clicked successfully.")
+    #     except Exception as e:
+    #         logging.error(f"Button not found or invalid TIN. Error: {e}")
+    #         print(f"Button not found   ", end='\r')
 
 
 def is_online(url):
