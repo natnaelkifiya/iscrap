@@ -12,6 +12,9 @@ from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.firefox.options import Options
 from webdriver_manager.firefox import GeckoDriverManager
 
+from botocore.exceptions import ClientError
+from io import BytesIO
+import boto3
 
 grid_url ='http://172.17.0.2:4444/wd/hub'
 
@@ -135,7 +138,15 @@ def extract(driver):
 
         data = log_arranger(left_top_div_elements, left_bottom_div_elements, main_div_top_elements, main_div_middle_elements, main_div_bottom_elements)
 
-        log_to_json(data)
+        bucket_name = "kft-etrade"
+        key="2024-10.json"
+
+        aws_access_key_id = os.getenv('AWS_ACCESS_KEY_ID')  # Load from environment variable
+        aws_secret_access_key = os.getenv('AWS_SECRET_ACCESS_KEY')  # Load from environment variable
+
+        log_to_json(bucket_name, key, data, aws_access_key_id, aws_secret_access_key)
+       
+        # log_to_json(data)
 
     except Exception as e:
         logging.error(f"Error during extraction: {e}")
@@ -183,29 +194,94 @@ def log_arranger(lt, lb, mt, mm, mb):
 
     data['ዘርፎች'] = mb
     return data
-
-
-def log_to_json(data):
-    """Logs the extracted data into a JSON file."""
+def log_to_json(bucket_name, key, data, aws_access_key_id, aws_secret_access_key):
+    """Logs the extracted data into a JSON file on S3."""
     try:
-        file_path = 'etrade_logs/2024-10.json'
-        os.makedirs(os.path.dirname(file_path), exist_ok=True)
+        # Initialize the boto3 S3 client
+        s3_client = boto3.client(
+            's3',
+            aws_access_key_id=aws_access_key_id,
+            aws_secret_access_key=aws_secret_access_key
+        )
+        
+        # Check if the file already exists in S3
+        try:
+            # Download the existing file
+            s3_object = s3_client.get_object(Bucket=bucket_name, Key=key)
+            existing_data = json.load(BytesIO(s3_object['Body'].read()))
+        except ClientError as e:
+            if e.response['Error']['Code'] == 'NoSuchKey':
+                logging.info(f"{key} does not exist in {bucket_name}. Creating a new file.")
+                existing_data = []
+            else:
+                logging.error(f"Error occurred while fetching the file from S3: {e}")
+                return
 
-        if not os.path.exists(file_path):
-            with open(file_path, 'w') as f:
-                json.dump([], f)
-
-        with open(file_path, 'r') as f:
-            existing_data = json.load(f)
-
+        # Append new data
         existing_data.append(data)
 
-        with open(file_path, 'w') as f:
-            json.dump(existing_data, f, ensure_ascii=False, indent=4)
+        # Write the updated data back to S3
+        json_data = json.dumps(existing_data, ensure_ascii=False, indent=4)
+        s3_client.put_object(Bucket=bucket_name, Key=key, Body=json_data.encode('utf-8'))
 
-        logging.info("Data successfully logged to JSON.")
+        logging.info("Data successfully logged to S3 JSON.")
     except Exception as e:
-        logging.error(f"Issue writing to JSON file: {e}")
+        logging.error(f"Issue writing to S3 JSON file: {e}")
+        
+# def log_to_json(bucket_name, key, data, aws_access_key_id, aws_secret_access_key):
+#     """Logs the extracted data into a JSON file on S3."""
+#     try:
+#         # Initialize the boto3 S3 client
+#         s3_client = boto3.client(
+#             's3',
+#             aws_access_key_id=aws_access_key_id,
+#             aws_secret_access_key=aws_secret_access_key
+#         )
+        
+#         # Check if the file already exists in S3
+#         try:
+#             # Download the existing file
+#             s3_object = s3_client.get_object(Bucket=bucket_name, Key=key)
+#             existing_data = json.load(BytesIO(s3_object['Body'].read()))
+#         except ClientError as e:
+#             if e.response['Error']['Code'] == 'NoSuchKey':
+#                 logging.info(f"{key} does not exist in {bucket_name}. Creating a new file.")
+#                 existing_data = []
+#             else:
+#                 logging.error(f"Error occurred while fetching the file from S3: {e}")
+#                 return
+
+#         # Append new data
+#         existing_data.append(data)
+
+#         # Write the updated data back to S3
+#         json_data = json.dumps(existing_data, ensure_ascii=False, indent=4)
+#         s3_client.put_object(Bucket=bucket_name, Key=key, Body=json_data.encode('utf-8'))
+
+#         logging.info("Data successfully logged to S3 JSON.")
+#     except Exception as e:
+#         logging.error(f"Issue writing to S3 JSON file: {e}")
+# def log_to_json(data):
+#     """Logs the extracted data into a JSON file."""
+#     try:
+#         file_path = 'etrade_logs/2024-10.json'
+#         os.makedirs(os.path.dirname(file_path), exist_ok=True)
+
+#         if not os.path.exists(file_path):
+#             with open(file_path, 'w') as f:
+#                 json.dump([], f)
+
+#         with open(file_path, 'r') as f:
+#             existing_data = json.load(f)
+
+#         existing_data.append(data)
+
+#         with open(file_path, 'w') as f:
+#             json.dump(existing_data, f, ensure_ascii=False, indent=4)
+
+#         logging.info("Data successfully logged to JSON.")
+#     except Exception as e:
+#         logging.error(f"Issue writing to JSON file: {e}")
 
 
 if __name__ == "__main__":
