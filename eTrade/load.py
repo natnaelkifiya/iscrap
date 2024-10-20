@@ -101,10 +101,14 @@ class Loader:
 
 def is_online(url):
     """Check if the website is reachable."""
-    headers = {
-    "Authorization": "token TOKEN"
-}
+    token = os.getenv('AUTH_TOKEN')  # Make sure 'AUTH_TOKEN' is set in your environment
+    if not token:
+        print("Authorization token not found in environment.")
+        return False
 
+    headers = {
+        "Authorization": f"token {token}"
+    }
     
     try:
         response = requests.get(url, timeout=5, headers=headers)
