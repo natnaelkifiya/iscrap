@@ -31,11 +31,11 @@ class Loader:
 
     def load_page(self, tin='0011385997'):
         logging.info(f"Loader initiated with TIN: {tin}")
-        print('Loader initiated ...', end='\r')
+        print('Loader initiated ...', end='\r', flush=True)
         
         if not is_online(self.url):
             logging.error(f"Website {self.url} is offline or unreachable.")
-            print(f"Website {self.url} is offline or unreachable.", end='/r')
+            print(f"Website {self.url} is offline or unreachable.", end='/r', flush=True)
             return None
 
         # Initialize Firefox WebDriver in headless mode
@@ -61,7 +61,7 @@ class Loader:
             extract(self.driver)  # Extract data
 
         except Exception as e:
-            print(f"Error occurred while loading page", end='/r')
+            print(f"Error occurred while loading page", end='/r', flush=True)
             logging.error(f"Error occurred while loading page: {e}")
         finally:
             if self.driver:
@@ -79,7 +79,7 @@ class Loader:
             logging.info("Button clicked successfully.")
         except Exception as e:
             logging.error(f"Button not found or invalid TIN. Error: {e}")
-            print(f"Button not found", end='\r')
+            print(f"Button not found", end='\r', flush=True)
 
 
     # def click_button(self):
@@ -108,7 +108,7 @@ def is_online(url):
         return response.status_code == 200
     except requests.RequestException as e:
         logging.error(f"Website check failed: {e}")
-        print('Website ping not responding ...', end='/r')
+        print('Website ping not responding ...', end='/r', flush=True)
         return False
 
 
@@ -139,7 +139,7 @@ def extract(driver):
 
     except Exception as e:
         logging.error(f"Error during extraction: {e}")
-        print('Could not extract data points ...', end='/r')
+        print('Could not extract data points ...', end='/r', flush=True)
 
 
 def log_arranger(lt, lb, mt, mm, mb):
@@ -154,7 +154,7 @@ def log_arranger(lt, lb, mt, mm, mb):
                 data[p_element.text.strip()] = span_element.text.strip()
         except Exception as e:
             logging.warning(f"Error extracting left top panel: {e}")
-            print("Error extracting left top panel:", end='/r')
+            print("Error extracting left top panel:", end='/r', flush=True)
 
     for div in lb:
         try:
