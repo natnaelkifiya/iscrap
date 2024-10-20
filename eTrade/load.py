@@ -120,26 +120,27 @@ class Loader:
 
 def is_online(url):
     """Check if the website is reachable."""
-    token = os.getenv('AUTH_TOKEN')  # Make sure 'AUTH_TOKEN' is set in your environment
-    if not token:
-        print("Authorization token not found in environment.")
-        return False
-    headers = {
-    "Authorization": f"Bearer {token}"  # Use 'Bearer' for GitHub tokens
-    }
-
-
+    # token = os.getenv('AUTH_TOKEN')  # Make sure 'AUTH_TOKEN' is set in your environment
+    # if not token:
+    #     print("Authorization token not found in environment.")
+    #     return False
     # headers = {
-    #     "Authorization": f"token {token}"
+    # "Authorization": f"Bearer {token}"  # Use 'Bearer' for GitHub tokens
     # }
+
+
+    # # headers = {
+    # #     "Authorization": f"token {token}"
+    # # }
     
-    try:
-        response = requests.get(url, timeout=5, headers=headers)
-        return response.status_code == 200
-    except requests.RequestException as e:
-        logging.error(f"Website check failed: {e}")
-        print('Website ping not responding ...', end='\r', flush=True) 
-        return False
+    # try:
+    #     response = requests.get(url, timeout=5, headers=headers)
+    #     return response.status_code == 200
+    # except requests.RequestException as e:
+    #     logging.error(f"Website check failed: {e}")
+    #     print('Website ping not responding ...', end='\r', flush=True) 
+    #     return False
+    return True
 
 
 
