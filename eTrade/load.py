@@ -190,7 +190,7 @@ def extract(driver):
 
     except Exception as e:
         logging.error(f"Error during extraction: {e}")
-        print('Could not extract data points ...', end='/r', flush=True)
+        print('Could not extract data points ...', end='\r', flush=True)
 
 
 def log_arranger(lt, lb, mt, mm, mb):
