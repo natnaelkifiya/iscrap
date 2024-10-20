@@ -42,7 +42,10 @@ class Loader:
             return None
 
         # Initialize Firefox WebDriver in headless mode
-        service = Service(GeckoDriverManager().install())  # Automatically installs GeckoDriver
+        #service = Service(GeckoDriverManager().install())  # Automatically installs GeckoDriver
+
+        service = Service(get_geckodriver_path())  # Automatically installs GeckoDriver or use cached
+
         options = Options()
         options.headless = True  # Headless mode
         options.add_argument('--disable-gpu')
@@ -120,27 +123,35 @@ class Loader:
 
 def is_online(url):
     """Check if the website is reachable."""
-    # token = os.getenv('AUTH_TOKEN')  # Make sure 'AUTH_TOKEN' is set in your environment
-    # if not token:
-    #     print("Authorization token not found in environment.")
-    #     return False
-    # headers = {
-    # "Authorization": f"Bearer {token}"  # Use 'Bearer' for GitHub tokens
-    # }
-
-
-    # # headers = {
-    # #     "Authorization": f"token {token}"
-    # # }
+    token = os.getenv('AUTH_TOKEN')  # Make sure 'AUTH_TOKEN' is set in your environment
+    if not token:
+        logging.error("Authorization token not found in environment.")
+        return False
     
-    # try:
-    #     response = requests.get(url, timeout=5, headers=headers)
-    #     return response.status_code == 200
-    # except requests.RequestException as e:
-    #     logging.error(f"Website check failed: {e}")
-    #     print('Website ping not responding ...', end='\r', flush=True) 
-    #     return False
-    return True
+    headers = {
+        "Authorization": f"Bearer {token}"  # Use 'Bearer' for GitHub tokens
+    }
+
+    try:
+        response = requests.get(url, timeout=5, headers=headers)
+
+        # Loop until we get a response that's not 403
+        while response.status_code == 403:
+            logging.warning("Received 403 status code, retrying in 120 seconds...")
+            print ("Received 403 status code, retrying in 120 seconds...")
+            time.sleep(120)  # Wait before retrying
+            response = requests.get(url, timeout=5, headers=headers)  # Retry the request
+        
+        
+        if response.status_code == 200:
+            return True
+        else:
+            logging.warning(f"Non-200 status code received: {response.status_code}")
+            return False
+    except requests.RequestException as e:
+        logging.error(f"Website check failed: {e}")
+        print('Website ping not responding...', end='\r', flush=True)
+        return False
 
 
 
@@ -311,6 +322,12 @@ def log_to_json(bucket_name, key, data, aws_access_key_id, aws_secret_access_key
 #         logging.info("Data successfully logged to JSON.")
 #     except Exception as e:
 #         logging.error(f"Issue writing to JSON file: {e}")
+
+def get_geckodriver_path():
+    geckodriver_path = 'geckodriver'  # Provide the correct path
+    if not os.path.exists(geckodriver_path):
+        geckodriver_path = GeckoDriverManager().install()
+    return geckodriver_path
 
 
 if __name__ == "__main__":
